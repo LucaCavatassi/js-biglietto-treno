@@ -17,7 +17,7 @@ Quanti anni ha?
 
 **LOGICA**
 Prezzo del biglietto = KM*0.21
-*Se l'età è minore di 20 anni, allora*
+*Se l'età è minore di 18 anni, allora*
 Prezzo del biglietto = prezzo - 20% (*0.20)
 *Se l'età è maggiore di 65 anni, allora*
 Prezzo del biglietto = prezzo - 40% (*0.40)
