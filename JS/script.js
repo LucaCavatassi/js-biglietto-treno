@@ -15,15 +15,17 @@ console.log(fullPrice, typeof fullPrice);
 
 if (userAge < 18) {
     fullPrice = (fullPrice - (fullPrice * 0.20));
-    console.log(fullPrice - (fullPrice * 0.20));
+    console.log(fullPrice - (fullPrice * 0.20), typeof fullPrice);
 } else if (userAge > 65) {
     fullPrice = (fullPrice - (fullPrice * 0.40));
-    console.log(fullPrice - (fullPrice * 0.40));
+    console.log(fullPrice - (fullPrice * 0.40), typeof fullPrice);
 } else {
     fullPrice = fullPrice;
-    console.log(fullPrice);
+    console.log(fullPrice, typeof fullPrice);
 }
 
 const fixedPrice = fullPrice.toFixed(2);
+console.log(fixedPrice, typeof fixedPrice);
+
 //OUTPUT
 document.getElementById("result").innerHTML = (`Questo è il prezzo del biglietto ${fixedPrice}€`)
