@@ -1,29 +1,11 @@
-# Richiesta
+# Description
 
-> Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero. 
+	The program ask the user for the number of kilometers they want to travel and the age of the passenger.
 
->Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole: 
-> - il prezzo del biglietto è definito in base ai km (0.21 € al km) 
-> - va applicato uno sconto del 20% per i minorenni 
-> - va applicato uno sconto del 40% per gli over 65.
+	Based on this information, it calculate the total price of the trip according to these rules:
 
->L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+	•	The ticket price is defined based on kilometers (€0.21 per km)
+	•	A 20% discount should be applied for minors
+	•	A 40% discount should be applied for those over 65.
 
-## Sviluppo
-
-**INPUT**
-Quanti km deve percorrere?
-Quanti anni ha?
-
-**LOGICA**
-Prezzo del biglietto = KM*0.21
-*Se l'età è minore di 18 anni, allora*
-Prezzo del biglietto = prezzo - 20% (*0.20)
-*Se l'età è maggiore di 65 anni, allora*
-Prezzo del biglietto = prezzo - 40% (*0.40)
-*Se l'età è maggiore di 20 anni ma minore di 65 allora*
-Prezzo del biglietto = prezzo del biglietto
-
-**OUTPUT**
-Prezzo con massimo due decimali al prezzo
-
+	The output of the final price it's presented in a human-readable format (with a maximum of two decimal places, to indicate cents in the price).
